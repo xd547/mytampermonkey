@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         RARBG in Douban
 // @namespace    http://blog.xd547.com/
-// @version      0.2
+// @version      0.3
 // @description  Open Moive Torrent list of RARBG
 // @author       RainySummer
 // @match        https://movie.douban.com/subject/*
@@ -12,7 +12,15 @@
     'use strict';
 
     var info = document.getElementById('info');
-    var imdbNo = info.children[info.children.length-2].innerText;
+    var imdbIndex = 0;
+    for (var i=0, len = info.children.length; i < len; i++) {
+        if (info.children[i].innerText.trim() === 'IMDb链接:') {
+            imdbIndex = i;
+            break;
+        }
+    }
+    //var imdbNo = info.children[info.children.length-2].innerText;
+    var imdbNo = info.children[imdbIndex + 1].innerText;
     // create SPAN
     var rarbgSPAN = document.createElement('span');
     rarbgSPAN.className = 'pl';
