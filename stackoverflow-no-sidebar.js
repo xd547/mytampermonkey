@@ -2,7 +2,7 @@
 // @name         Stackoverflow no sidebar
 // @namespace    http://blog.xd547.com/
 // @version      0.1
-// @description  Open Moive Torrent list of RARBG
+// @description  Hide stackoverflow left sidebar
 // @author       RainySummer
 // @match        https://stackoverflow.com/questions/*
 // @grant        none
