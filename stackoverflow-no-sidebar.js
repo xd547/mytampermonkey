@@ -11,4 +11,6 @@
 (function() {
     'use strict';
     document.getElementById('left-sidebar').style = "display:none;";
+    document.getElementById('sidebar').style = "display:none;";
+    document.getElementById('mainbar').style.width = "calc(100% - 24px)";
 })();
