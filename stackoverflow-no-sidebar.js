@@ -12,5 +12,6 @@
     'use strict';
     document.getElementById('left-sidebar').style = "display:none;";
     document.getElementById('sidebar').style = "display:none;";
-    document.getElementById('mainbar').style.width = "calc(100% - 24px)";
+    document.getElementById('mainbar').style.width = "100%";
+    document.getElementById('content').style.border="0px solid #000";
 })();
