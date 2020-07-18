@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Stackoverflow no sidebar
-// @namespace    http://blog.xd547.com/
-// @version      0.2
+// @namespace    https://blog.xd547.com/
+// @version      0.3
 // @description  Hide stackoverflow left sidebar
 // @author       RainySummer
 // @match        https://stackoverflow.com/questions/*

@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         RARBG in Douban
-// @namespace    http://blog.xd547.com/
-// @version      0.4
+// @namespace    https://blog.xd547.com/
+// @version      0.5
 // @description  Open Moive Torrent list of RARBG
 // @author       RainySummer
 // @match        https://movie.douban.com/subject/*

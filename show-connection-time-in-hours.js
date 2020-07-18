@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Show connection time in hours
-// @namespace    http://tampermonkey.net/
-// @version      0.1
+// @namespace    https://blog.xd547.com/
+// @version      0.2
 // @description  try to take over the world!
 // @author       You
 // @match        http://192.168.1.1/getpage.gch?pid=1002&nextpage=status_wan_if_t.gch
