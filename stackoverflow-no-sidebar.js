@@ -1,10 +1,11 @@
 // ==UserScript==
 // @name         Stackoverflow no sidebar
 // @namespace    https://blog.xd547.com/
-// @version      0.3
+// @version      0.4
 // @description  Hide stackoverflow left sidebar
 // @author       RainySummer
 // @match        https://stackoverflow.com/questions/*
+// @match        https://*.stackexchange.com/questions/*
 // @grant        none
 // ==/UserScript==
 
