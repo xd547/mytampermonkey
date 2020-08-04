@@ -15,4 +15,7 @@
   'use strict';
 
   document.querySelector('html').setAttribute('data-theme', 'dark')
+  windows.onload = function() {
+    document.querySelector('html').setAttribute('data-theme', 'dark')
+  }
 })();
