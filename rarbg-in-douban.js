@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         RARBG in Douban
 // @namespace    https://blog.xd547.com/
-// @version      0.6
+// @version      0.6.1
 // @description  Open Moive Torrent list of RARBG
 // @author       RainySummer
 // @match        https://movie.douban.com/subject/*
@@ -20,7 +20,8 @@
         }
     }
     //var imdbNo = info.children[info.children.length-2].innerText;
-    var imdbNo = info.children[imdbIndex + 1].innerText;
+    //var imdbNo = info.children[imdbIndex + 1].innerText;
+    var imdbNo = info.children[imdbIndex].nextSibling;
     // create SPAN
     var rarbgSPAN = document.createElement('span');
     rarbgSPAN.className = 'pl';
